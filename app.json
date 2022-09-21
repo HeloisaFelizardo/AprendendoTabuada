@@ -1,11 +1,21 @@
 {
   "expo": {
-    "name": "AprendendoTabuada",
-    "slug": "AprendendoTabuada",
+    "name": "Desafio Tabuada",
+    "icon": "./assets/icone.png",
+    "slug": "desafio-tabuada",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
-  },
-  "name": "AprendendoTabuada"
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#03989e"
+    },
+    "android": {
+      "package": "com.devup.desafiotabuada",
+      "versionCode": 1
+    },
+    "ios": {
+      "bundleIdentifier": "com.devup.desafiotabuada",
+      "buildNumber": "1.0.0"
+    }
+  }
 }

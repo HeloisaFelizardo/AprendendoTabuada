@@ -26,3 +26,12 @@ module.exports = function(api) {
 5. Executar o aplicativo através do comando:
 npx expo start
 
+6.  Comando para se logar em uma conta expo
+expo login
+
+7. Comando para instalar uma ferramenta responsável por gerar o instalador do Android 
+npm install -g eas-cli
+
+8.Comando para se gerar um .apk ou .aab
+eas build -p android
+
