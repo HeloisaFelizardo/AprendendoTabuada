@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "AprendendoTabuada",
+    "slug": "AprendendoTabuada",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "AprendendoTabuada"
+}
