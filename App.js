@@ -1,21 +1,23 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+import TelaInicio from './telas/TelaInicio';
+import TelaTabuada from "./telas/TelaTabuada";
+import TelaRespostaCorreta from "./telas/TelaRespostaCorreta";
+import TelaRespostaErrada from "./telas/TelaRespostaErrada";
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+const Navegacao = createStackNavigator();
+
+const App = () => (
+  <NavigationContainer >
+    <Navegacao.Navigator screenOptions={{ headerShown: false }}>
+      <Navegacao.Screen name="Inicio" component = { TelaInicio } />
+      <Navegacao.Screen name="Tabuada" component = { TelaTabuada } />
+      <Navegacao.Screen name="RespostaCorreta" component = { TelaRespostaCorreta } />
+      <Navegacao.Screen name="RespostaErrada" component = { TelaRespostaErrada } />
+    </Navegacao.Navigator>
+  </NavigationContainer>
+);
+
+export default App;
