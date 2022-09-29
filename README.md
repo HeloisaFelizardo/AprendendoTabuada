@@ -1,5 +1,13 @@
 Aplicativo criado com React Native Navigation Stack
 
+Nesse projeto utilizei a navegação e como ela é necessária quando temos um aplicativo com mais de uma tela e através dela conseguimos mudar de uma tela para outra.
+
+Para criar seus próprios componentes utilizei componentes nativos que nos permitem exibir algo para o usuário (View, ScrollView, Text, Image) e que permitem ao usuário interagir com o aplicativo (Button e TextInput).
+
+Neste projeto foi criado um aplicativo com mais de uma tela e a navegar entre elas.
+
+https://github.com/HeloisaFelizardo/AprendendoTabuada
+
 1. Instalando o Expo
 A instalação do Expo no computador é feita pelo Node através do comando:
 npm install -g expo-cli
