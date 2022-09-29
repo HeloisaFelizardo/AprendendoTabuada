@@ -16,7 +16,7 @@ npm install @react-navigation/native @react-navigation/stack
 
 npx expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
 
-4. Babel.config.js
+5. Babel.config.js
 
 module.exports = function(api) {
   api.cache(true);
@@ -26,7 +26,7 @@ module.exports = function(api) {
   };
 };
 
-5. Executar o aplicativo através do comando:
+6. Executar o aplicativo através do comando:
 npx expo start
 
 7. Gerar o instalador .apk ou .aab (android):
